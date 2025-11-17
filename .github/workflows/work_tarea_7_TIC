@@ -1,0 +1,15 @@
+name: Tarea 7 - Tecnicas de Integracion de Codigo
+on:
+  push:
+    branches:
+      - test_1
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print 1
+      run: echo "Esta es la primera impresion"
+    - name: Print 2
+      run: echo "Esta es la segunda impresion"
+    - name: Print 3
+      run: echo "Esta es la tercera impresion"
